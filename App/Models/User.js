@@ -7,6 +7,23 @@ class User{
         this.dateCreated = new Date()
         this.lastUpdate = new Date()
     }
+
+    // Gettes
+    get getUsername(){
+        return this.username
+    }
+
+    get getBio(){
+        return this.bio
+    }
+
+    get getDateCreated(){
+        return this.dateCreated
+    }
+
+    get getLastUpdate(){
+        return this.lastUpdate
+    }
 }
 
 // Exportar la clase
