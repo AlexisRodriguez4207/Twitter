@@ -34,5 +34,7 @@ class User{
     }
 }
 
+
+
 // Exportar la clase
 module.exports= User
