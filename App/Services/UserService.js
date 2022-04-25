@@ -13,7 +13,9 @@ class UserService{
         return user.username = NewUserName
     }
 
-    
+    static getAllUsernames(users){
+        return users.map(user => user.username)
+    }
 }
 
 // Exportamos la clase
