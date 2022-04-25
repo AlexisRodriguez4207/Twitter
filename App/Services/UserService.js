@@ -8,6 +8,12 @@ class UserService{
     static getInfo(user){
         return [user.id,user.username,user.name,user.bio]
     }
+
+    static UpdateUserName(user,NewUserName){
+        return user.username = NewUserName
+    }
+
+    
 }
 
 // Exportamos la clase
